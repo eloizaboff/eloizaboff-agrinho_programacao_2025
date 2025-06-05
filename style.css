@@ -1,19 +1,40 @@
-* Centraliza todo o conteúdo do body */
 body {
-    text-align: center;
     font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    text-align: center;
 }
 
-/* Centraliza os títulos */
-h1, h2 {
-    margin-top: 20px;
+/* Cabeçalho com imagem + título lado a lado */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+/* Imagem pequena */
+.logo-img {
+    width: 80px;
+    height: auto;
+}
+
+/* Título ao lado da imagem */
+.header h1 {
+    font-size: 2.5em;
     color: #2c3e50;
+    margin: 0;
 }
 
-/* Define uma largura máxima e centraliza os parágrafos */
+/* Subtítulos */
+h2 {
+    margin-top: 30px;
+    color: #34495e;
+}
+
+/* Texto geral */
 p {
     max-width: 800px;
     margin: 10px auto;
@@ -21,31 +42,11 @@ p {
     color: #333;
 }
 
-/* Define estilo e tamanho ajustável para as imagens */
-img {
-    max-width: 90%;
+/* Imagem abaixo, centralizada */
+.silagem-img {
+    max-width: 800px;
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin: 15px auto;
+    margin: 30px auto 10px auto;
     display: block;
-}
-
-/* Estiliza a seção com imagem e conteúdo lado a lado em telas grandes */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* Responsividade para colunas */
-.col-4, .col-5 {
-    flex: 1 1 300px;
-}
-
-/* Corrige a classe errada "rounded-pil]" */
-.rounded-pill {
-    border-radius: 50px;
 }
