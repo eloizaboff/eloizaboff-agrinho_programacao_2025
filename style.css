@@ -9,7 +9,7 @@ body {
 /* Cabeçalho com imagem + título lado a lado */
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 5px;
     gap: 5px;
