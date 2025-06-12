@@ -16,9 +16,10 @@ body {
 }
 
 /* Imagem pequena */
-.logo-img {
-    width: 5%;
+.rounded-pill {
+    width: 150px;
     height: auto;
+    border-radius: 900px;
 }
 
 /* Título ao lado da imagem */
