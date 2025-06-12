@@ -6,22 +6,24 @@ body {
     text-align: center;
 }
 
-/* Cabeçalho com imagem + título lado a lado */
+/* Cabeçalho com imagem e título lado a lado */
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
-    gap: 5px;
+    margin-top: 20px;
+    gap: 20px;
 }
 
-/* Imagem pequena */
+/* Imagem redonda */
 .logo-img {
-    width: 5%;
-    height: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-/* Título ao lado da imagem */
+/* Título do cabeçalho */
 .header h1 {
     font-size: 2.5em;
     color: #2c3e50;
@@ -34,32 +36,35 @@ h2 {
     color: #34495e;
 }
 
-/* Texto geral */
+/* Parágrafos */
 p {
     max-width: 800px;
     margin: 10px auto;
     line-height: 2.0;
     color: #333;
+    text-align: justify;
 }
 
-/* Imagem abaixo, centralizada */
+/* Imagem da silagem */
 .silagem-img {
     max-width: 800px;
     width: 100%;
     height: auto;
     margin: 30px auto 10px auto;
     display: block;
+    border-radius: 10px;
+}
+
+/* Estilo da lista */
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 li {
-    text-decoration: none;
-    list-style: none;
-}
-li, ul{
- font-family:robo
- font-size: 16px;
- color: #333;
- line-height: 1,6;
-
-
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
